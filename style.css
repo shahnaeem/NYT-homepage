@@ -4,7 +4,6 @@
     padding-right: 20px;
     height:40px;
     width: 100%;
-    border-radius: 20px;
     
 }
 .menu{
@@ -41,7 +40,14 @@
     display:flex;
     height:30px;
     
-    
-    
 }
-
+.left{
+     align-items: left;
+}
+.center{
+    padding-right: 50px;
+    align-items: center;
+}
+.right-button{
+    align-items: right;
+}
