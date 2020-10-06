@@ -39,6 +39,7 @@
 .logo{
     display:flex;
     height:30px;
+<<<<<<< HEAD
     
 }
 .left{
@@ -51,3 +52,89 @@
 .right-button{
     align-items: right;
 }
+=======
+}
+
+.main{
+    border: aquamarine solid 1px;
+    height: auto;
+    display:grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: auto;
+    background-color: aquamarine;
+}
+
+.title-article {
+  grid-column: 3/6;
+}
+
+.img-container {
+  grid-column: 2/8;
+  grid-row: auto;
+  background-color: blueviolet;
+  margin: 2px 2px;
+}
+
+.img-article{
+  width: 100%;
+}
+
+.img-description {
+  grid-column: 2/8;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.main-article {
+  grid-column: 3/7;
+  font-size: 20px;
+  margin-right: 10px;
+
+}
+
+.fig-container {
+  grid-column: 2/8;
+  background-color: brown;
+}
+
+.fig-one {
+  grid-column: 2/3;
+  width: 24.5%;
+}
+
+.fig-two {
+  grid-column: 3/4;
+  width: 24.5%;
+}
+
+.fig-three {
+    grid-column: 4/5;
+    width: 24.5%;
+  }
+
+  .fig-four {
+    grid-column: 5/6;
+    width: 24.5%;
+  }
+
+  .fig-descriptions {
+    display: grid;
+    grid-column: 2/8;
+    background-color: yellow;
+    font-size: 14px;
+  }
+  .descr-one {
+    grid-column: 2;
+    font-size: 14px;
+    background-color: blue;
+    width: 50%;
+   
+  }
+  
+  .descr-two {
+    grid-column:3;
+    font-size: 14px;
+    background-color: burlywood;
+
+  }
+>>>>>>> 639417bd4b59800109cb35ddea1f2d26394c2cf6
