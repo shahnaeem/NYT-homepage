@@ -42,14 +42,14 @@ This projects diplays the videos.
 - Twitter: [@mohdnayeemshah1](https://twitter.com/MOHDNAYEEMSHAH1)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/mohd-nayeem-shah-97a590152)
 
-👩🏼‍💻 **Carlos Albenio Gutierrez Monroy**
+👨🏻‍💻 **Carlos Albenio Gutierrez Monroy**
 
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/shahnaeem/microverse-form/issues).
+Feel free to check the [issues page](https://github.com/shahnaeem/NYT-homepage/issues).
 
 
 ## Show your support
