@@ -604,12 +604,20 @@ hr {
 .subscribefive {
   border-bottom:lightgray solid 1px;
 }
+.container-footer {
+display: flex;
+justify-content: center;
+}
 
 .footer {
   border-top:lightgray solid 1px;
   border-bottom: solid 1px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
+  padding: 0;
+  margin-left: 0;
+  justify-content: center;
 }
+
 .footer-list li {
   font-size: 20px;
   display: inline;
@@ -640,4 +648,8 @@ li {
   position: fixed;
   width: 100%;
   border-top: black solid 1px;
+}
+
+a:hover {
+  text-decoration: underline;
 }
