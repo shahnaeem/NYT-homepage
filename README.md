@@ -1,5 +1,5 @@
 
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![name-of-you-image](https://img.shields.io/badge/Microverse-blueviolet)
 
 
 # NYT-homepage- Microverse Project
