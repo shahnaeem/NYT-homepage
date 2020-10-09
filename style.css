@@ -595,12 +595,7 @@ li {
   color: gray;
   margin-top: 60px;
 }
-<<<<<<< HEAD
 .go-to-page a{
-=======
-
-.go-to-page {
->>>>>>> 9c22612426969b9d0b90e7c9fdc3eca7f8a60b53
   float: right;
   margin-bottom: 0;
   
@@ -662,7 +657,6 @@ a.go-to-homepage {
   color:darkgray;
 }
 
-<<<<<<< HEAD
 .subscribediv1 ul li a{
  display: flex;
  display: inline-flex;
@@ -678,14 +672,6 @@ font-family: Arial, Helvetica, sans-serif;
 color:black;
 font-size: 11px;
 padding-bottom: 5px;
-=======
-.subscribeone {
-  display: flex;
-}
-
-.subscribetwo {
-  display: flex;
->>>>>>> 9c22612426969b9d0b90e7c9fdc3eca7f8a60b53
 }
 
 .subscribediv3 ul li a{
@@ -694,14 +680,8 @@ padding-bottom: 5px;
   color:black;
   font-size: 11px;
 }
-<<<<<<< HEAD
 .subscribediv3 {
   border-top: lightgray solid 1px;
-=======
-
-.subscribefive {
-  border-bottom: lightgray solid 1px;
->>>>>>> 9c22612426969b9d0b90e7c9fdc3eca7f8a60b53
 }
 
 .container-footer {
@@ -733,7 +713,6 @@ b {
   width: 100%;
   border-top: black solid 1px;
 }
-<<<<<<< HEAD
 .footer-fixed h3 a{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -761,5 +740,3 @@ ul.asidelinks a{
 ul.asidelinks a:hover{
 color:gray;
 }
-=======
->>>>>>> 9c22612426969b9d0b90e7c9fdc3eca7f8a60b53
