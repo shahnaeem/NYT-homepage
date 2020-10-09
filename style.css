@@ -545,11 +545,46 @@ a:hover {
   text-decoration: underline;
 }
 
+.go-to-page a {
+  float: right;
+  margin-bottom: 0;
+}
+
 ul.asidelinks a {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   text-decoration: none;
+}
+
+.footer-fixed h3 a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.subscribediv1 ul li a {
+  display: flex;
+  display: inline-flex;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 14px;
+  color: black;
+}
+
+.subscribediv2 ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 11px;
+  padding-bottom: 5px;
+}
+
+.subscribediv3 ul li a {
+  padding-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 11px;
 }
 
 ul.asidelinks a:hover {
@@ -573,6 +608,13 @@ li {
   padding-right: 10px;
 }
 
+.subscribe li {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: darkgray;
+}
+
 .most-popular ul li {
   border-bottom: lightgray solid 1px;
   padding-bottom: 15px;
@@ -594,11 +636,6 @@ li {
   max-width: 100%;
   color: gray;
   margin-top: 60px;
-}
-.go-to-page a{
-  float: right;
-  margin-bottom: 0;
-  
 }
 
 .other-links {
@@ -648,43 +685,13 @@ a.go-to-homepage {
 
 .subscribe {
   grid-column: 6/7;
-  border-left: lightgray solid 1px; 
+  border-left: lightgray solid 1px;
 }
 
 .subscribe p {
-margin-left: 45px; 
+  margin-left: 45px;
 }
 
-.subscribe li {
-  display: flex;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  color:darkgray;
-}
-
-.subscribediv1 ul li a {
- display: flex;
- display: inline-flex;
- align-content: center;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: bolder;
-font-size: 14px;
-color:black;
-}
- 
-.subscribediv2 ul li a{
-font-family: Arial, Helvetica, sans-serif;
-color:black;
-font-size: 11px;
-padding-bottom: 5px;
-}
-
-.subscribediv3 ul li a{
-  padding-bottom: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  color:black;
-  font-size: 11px;
-}
 .subscribediv3 {
   border-top: lightgray solid 1px;
 }
@@ -717,31 +724,4 @@ b {
   position: fixed;
   width: 100%;
   border-top: black solid 1px;
-}
-.footer-fixed h3 a{
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 16px;
-}
-a:hover {
-  text-decoration: underline;
-}
-
-a.go-to-homepage{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 11px;
-  color:#567B95;
-  text-decoration: none;
-}
-ul.asidelinks a{
-  color:black;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  text-decoration: none;
-}
-ul.asidelinks a:hover{
-color:gray;
 }

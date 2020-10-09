@@ -3,7 +3,7 @@
 
 # NYT-homepage- Microverse Project
 
-This is our Third project for Microverse.
+This is a clone of the New York Times original web page. It is a project to show the implementation of HTML and CSS positioning. It is done as part of the microverse program for the third project of the curriculum.
 
 ![screenshot](./assets/screenshot.png)
 
@@ -65,4 +65,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](license.md/) licensed.
+This project is [MIT](LICENSE.md/) licensed.
