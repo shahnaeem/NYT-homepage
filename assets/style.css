@@ -1,6 +1,12 @@
+body {
+  width: 92%;
+  margin: 10px;
+  align-content: center;
+}
+
 .nav {
   display: inline-flex;
-  height: 35px;
+  height: 50px;
   width: 100%;
   position: fixed;
   top: 0;
@@ -22,11 +28,13 @@
   padding-left: 15%;
   padding-right: 50px;
   align-items: center;
+  margin-top: 10px;
 }
 
 .right-button {
   display: flex;
   padding-left: 33.5%;
+  margin-top: 10px;
 }
 
 .lup {
@@ -116,7 +124,7 @@
 
 .main-article {
   grid-column: 3/7;
-  font-size: 20px;
+  font-size: 21px;
   margin-right: 10px;
 }
 
@@ -169,35 +177,35 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: auto;
-  font-size: 14px;
-  gap: 10px;
+  font-size: 15px;
+  gap: 12px;
 }
 
 .descr-one {
   grid-column: 2/3;
-  font-size: 14px;
-  margin-top: 7px;
+  font-size: 15px;
+  margin-top: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .descr-two {
   grid-column: 3/4;
-  font-size: 14px;
-  margin-top: 7px;
+  font-size: 15px;
+  margin-top: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .descr-three {
   grid-column: 4/5;
-  font-size: 14px;
-  margin-top: 7px;
+  font-size: 15px;
+  margin-top: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .descr-four {
   grid-column: 5/6;
-  font-size: 14px;
-  margin-top: 7px;
+  font-size: 15px;
+  margin-top: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -629,6 +637,7 @@ li {
 
 .logo-nyt {
   width: 18%;
+  cursor: pointer;
 }
 
 .double-line {
@@ -668,9 +677,17 @@ a.go-to-homepage {
   padding: 5px;
 }
 
+.opinion ul {
+  padding: 0;
+}
+
 .arts {
   grid-column: 3/4;
   padding: 5px;
+}
+
+.arts ul {
+  padding: 0;
 }
 
 .living {
@@ -678,9 +695,17 @@ a.go-to-homepage {
   padding: 5px;
 }
 
+.living ul {
+  padding: 0;
+}
+
 .more {
   grid-column: 5/6;
   padding: 5px;
+}
+
+.more ul {
+  padding: 0;
 }
 
 .subscribe {
