@@ -547,11 +547,7 @@ a:hover {
 
 .go-to-page a {
   float: right;
-  margin-bottom: 0; 
-}
-
-a:hover {
-  text-decoration: underline;
+  margin-bottom: 0;
 }
 
 ul.asidelinks a {
@@ -571,17 +567,24 @@ ul.asidelinks a {
   display: flex;
   display: inline-flex;
   align-content: center;
- font-family: Arial, Helvetica, sans-serif;
- font-weight: bolder;
- font-size: 14px;
- color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 14px;
+  color: black;
  }
 
- .subscribediv2 ul li a {
+.subscribediv2 ul li a {
   font-family: Arial, Helvetica, sans-serif;
-  color:black;
+  color: black;
   font-size: 11px;
   padding-bottom: 5px;
+}
+
+.subscribediv3 ul li a {
+  padding-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 11px;
 }
 
 ul.asidelinks a:hover {
@@ -609,7 +612,7 @@ li {
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
-  color:darkgray;
+  color: darkgray;
 }
 
 .most-popular ul li {
@@ -689,13 +692,6 @@ a.go-to-homepage {
   margin-left: 45px;
 }
 
-.subscribediv3 ul li a {
-  padding-bottom: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  font-size: 11px;
-}
-
 .subscribediv3 {
   border-top: lightgray solid 1px;
 }
@@ -728,14 +724,4 @@ b {
   position: fixed;
   width: 100%;
   border-top: black solid 1px;
-}
-
-a.go-to-homepage {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 11px;
-  color:#567B95;
-  text-decoration: none;
 }
