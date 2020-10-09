@@ -1,10 +1,9 @@
 
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
+![name-of-you-image](https://img.shields.io/badge/Microverse-blueviolet)
 
 # NYT-homepage- Microverse Project
 
-> This is our second project for Microverse.
+This is our Third project for Microverse.
 
 ![screenshot](./assets/screenshot.png)
 
